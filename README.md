@@ -49,7 +49,7 @@ To use in Windows, activate the virtualenv with the below command:
 ```
 #This is meant to be a full path to the activate script. Replace `[path_to_Python_install_path]` with  your Python installed path name.
 
-# install dependencies:
+# Install the required dependencies:
 ```
   $ pip install -r requirements.txt
 ```
