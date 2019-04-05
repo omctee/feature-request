@@ -1,0 +1,35 @@
+{% extends "layout/base.html" %}
+
+{% block body %}
+   <div class="center-container">
+        <div class="row align-items-center h-100">
+            <div class="col-md-8 mx-auto">
+                <table class="table table-striped" style="background: rgba(27,27,27,.60); color: #FFFFFF;">   <!--bg  #4E74B2  #AFAFAF  rgba(27,27,27,.60)  #73a2c4 -->
+                    <thead>
+                        <tr>
+                            <th scope="col"> ID</th>
+                            <th scope="col"> Feature Request </th>
+                            <th scope="col"> Priority </th>
+                            <th scope="col"> Client</th>
+                            <th scope="col"> Product Area </th>
+                            <th scope="col"> Target Date </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for request in requests %}
+                        <tr data-toggle="tooltip" data-placement="left" title='{{request.description}}'>
+                          <th scope="row">{{ request.id }}</th>
+                          <td style="max-width: 300px;">{{ request.title }}</td>
+                          <td> {{ request.priority }} </td>
+                          <td> {{ request.client_name }} </td>
+                          <td> {{ request.product_category }}  </td>
+                          <td> {{ request.target_date }}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
