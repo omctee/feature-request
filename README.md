@@ -44,13 +44,13 @@ To use in Windows, activate the virtualenv with the below command:
 
   [path_to_Python_install_path]\Scripts\activate
 
-## This is meant to be a full path to the activate script. Replace `[path_to_Python_install_path]` with   your correct path name.
+#This is meant to be a full path to the activate script. Replace `[path_to_Python_install_path]` with   your correct path name.
 
-# install dependencies:
+#install dependencies:
 
   $ pip install -r requirements.txt
 
-# Next, run the migration and populate the database with some data:
+#Next, run the migration and populate the database with some data:
 
   $ python run.py db init 
   $ python run.py db migrate 
@@ -66,6 +66,6 @@ To use in Windows, activate the virtualenv with the below command:
 The default login credential is:
 The logic for the login credential is located in ``populate.py``.
 
-Username: login
-Password: login
+#Username: login
+#Password: login
 
