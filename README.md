@@ -66,6 +66,6 @@ To use in Windows, activate the virtualenv with the below command:
 The default login credential is:
 The logic for the login credential is located in ``populate.py``.
 
-# Username: login
-# Password: login
+Username: login
+Password: login
 
