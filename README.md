@@ -9,7 +9,7 @@ Default login:
   Username: login
   Password: login
 ```
-# Prerequisite
+# Pre-requisite
 
 ```bash
 The app uses the following  dependencies:
