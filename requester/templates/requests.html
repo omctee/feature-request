@@ -18,7 +18,7 @@
                     <tbody>
                         {% for request in requests %}
                         <tr data-toggle="tooltip" data-placement="left" title='{{request.description}}'>
-                          <th scope="row">{{ request.id }}</th>
+                          <td scope="row">{{ request.id }}</td>
                           <td style="max-width: 300px;">{{ request.title }}</td>
                           <td> {{ request.priority }} </td>
                           <td> {{ request.client_name }} </td>
