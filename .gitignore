@@ -1,0 +1,17 @@
+/.metadata/
+/.recommenders/
+
+.env
+__pycache__
+env/*
+app.db
+migrations
+*.sqlite
+__pycache__
+gitignore.rar
+virtual
+psycopg2-2.7.7-cp37-cp37m-win_amd64.whl
+activate.bat
+deactivate.bat
+Sample.csv
+*.rar
